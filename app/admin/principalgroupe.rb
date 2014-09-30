@@ -1,4 +1,5 @@
 ActiveAdmin.register Principalgroupe do
+  permit_params :name
 
 
   # See permitted parameters documentation:
